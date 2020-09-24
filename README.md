@@ -30,7 +30,10 @@ Merge changes from upstream toolchain template into your repository. Be sure to 
 
 Update to latest:
 ```bash
+# Update to latest commit
 cruft update
+# Update to specific release tag
+cruft update -c v1.1.0
 ```
 
 Resolve merge conflicts, keeping project specific overrides and deletions.
