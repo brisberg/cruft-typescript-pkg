@@ -12,9 +12,9 @@
   "private": false,
   "repository": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}.git",
   "bugs": {
-    "url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.prodject_name }}/issues"
+    "url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project }}/issues"
   },
-  "homepage": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.prodject_name }}#readme",
+  "homepage": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project }}#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
