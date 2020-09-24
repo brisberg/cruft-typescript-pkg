@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "{{ cookiecutter.description }}",
   "main": "lib/index.js",
-  "keywords": [],
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "typescript"
+  ],
   "author": "{{ cookiecutter.github_username }} <{{ cookiecutter.email }}>",
   "license": "MIT",
   "private": false,
@@ -13,24 +16,25 @@
   },
   "homepage": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "build": "tsc",
-    "run": "node lib/index.js",
     "test": "jest",
     "lint": "eslint \"src/**/*.ts\""
   },
-  "dependencies": {},
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "devDependencies": {
-    "@types/jest": "24",
-    "@typescript-eslint/eslint-plugin": "^3.4.0",
-    "@typescript-eslint/parser": "^3.4.0",
+    "@types/jest": "^26.0.3",
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
     "clang-format": "^1.4.0",
     "eslint": "^7.3.1",
     "eslint-config-google": "^0.14.0",
-    "jest": "24",
-    "ts-jest": "24",
-    "typescript": "3.9.4"
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.6"
   }
 }
