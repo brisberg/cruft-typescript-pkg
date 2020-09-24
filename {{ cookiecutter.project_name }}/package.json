@@ -1,0 +1,39 @@
+{
+  "name": "@brisberg/{{ cookiecutter.project_name }}",
+  "version": "0.1.0",
+  "description": "{{ cookiecutter.description }}",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "typescript"
+  ],
+  "author": "brisberg <brandon.risberg@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/brisberg/{{ cookiecutter.project_name }}.git",
+  "bugs": {
+    "url": "https://github.com/brisberg/{{ cookiecutter.project_name }}/issues"
+  },
+  "homepage": "https://github.com/brisberg/{{ cookiecutter.project_name }}#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
+    "clang-format": "^1.4.0",
+    "eslint": "^7.3.1",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.6"
+  }
+}
