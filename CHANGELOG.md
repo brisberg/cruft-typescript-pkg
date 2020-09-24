@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 - N/a
 
+## [1.2.0] - 2020-09-24
+### Added
+- Added a `wiki/` directory to hold the project's wiki.
+- Added `publish-wiki.yml` workflow from @brisberg/workflow-templates.
+
+### Changed
+- Changed `test-and-lint.yml` to standard `yarn-test-lint.yml` from @brisberg/workflow-templates.
+
 ## [1.1.1] - 2020-09-24
 ### Changed
 - Renamed reporitory to `@brisberg/cruft-typescript-pkg`.
