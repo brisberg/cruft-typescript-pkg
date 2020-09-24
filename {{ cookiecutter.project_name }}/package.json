@@ -7,13 +7,13 @@
   "keywords": [
     "typescript"
   ],
-  "author": "brisberg <brandon.risberg@gmail.com>",
+  "author": "{{ cookiecutter.github_username }} <{{ cookiecutter.email }}>",
   "license": "MIT",
-  "repository": "https://github.com/brisberg/{{ cookiecutter.project_name }}.git",
+  "repository": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}.git",
   "bugs": {
-    "url": "https://github.com/brisberg/{{ cookiecutter.project_name }}/issues"
+    "url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}/issues"
   },
-  "homepage": "https://github.com/brisberg/{{ cookiecutter.project_name }}#readme",
+  "homepage": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
