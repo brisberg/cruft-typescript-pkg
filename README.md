@@ -1,5 +1,9 @@
 # cruft-typescript-pkg
+<<<<<<< HEAD
 TypeScript NPM package project template definition. Powered by [Cruft](https://github.com/cruft/cruft)
+=======
+TypeScript NPM package project template definition. Powered by Cruft
+>>>>>>> Copied in changes from typescript-toolchain@v1.0.0
 
 # TypeScript Npm Package (Template)
 
