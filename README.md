@@ -1,38 +1,41 @@
-# cruft-typescript-pkg
-<<<<<<< HEAD
-TypeScript NPM package project template definition. Powered by [Cruft](https://github.com/cruft/cruft)
-=======
-TypeScript NPM package project template definition. Powered by Cruft
->>>>>>> Copied in changes from typescript-toolchain@v1.0.0
-
 # TypeScript Npm Package (Template)
 
-Standard project configuration template for @brisberg TypeScript packages.
+Standard project configuration template for @brisberg TypeScript NPM packages.
 
 This is an opinionated toolchain configuration for TypeScript packages published to NPM Registry.
-Uses Cookiecutter as a template engine, meant to be distributed with Cruft.
+Powered by [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template engine, meant to be distributed with [Cruft](https://github.com/cruft/cruft).
 
 ## Usage
 
-Besure to install cruft:
+### Besure to install cruft:
 
 ```bash
 pip3 install cruft
 ```
 
-In a new repository:
+### Setup
+#### In a new repository:
 ```bash
 cruft create https://github.com/brisberg/cruft-typescript-pkg/
 ```
 
-Check if there are updates upstream:
+#### In an existing repository:
+```bash
+# Link the repo to the bare template
+cruft link https://github.com/brisberg/cruft-typescript-pkg -c v0.0.0
+# Update to desired release to apply all the changes
+cruft update (-c v1.1.0)
+```
+
+Be sure to keep any project specific config changes.
+
+### Update
+#### Check if there are updates upstream:
 ```bash
 cruft check
 ```
 
-Merge changes from upstream toolchain template into your repository. Be sure to manually keep any project specific overrides.
-
-Update to latest:
+#### Update to latest:
 ```bash
 # Update to latest commit
 cruft update

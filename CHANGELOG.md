@@ -8,16 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 - N/a
 
-
-
-## [1.1.0] - 2020-09-24
+## [1.1.1] - 2020-09-24
 ### Changed
-- Renamed repository from `@brisberg/typescript-pkg-cruft`.
-
+- Renamed reporitory to `@brisberg/cruft-typescript-pkg`.
 
 ## [1.1.0] - 2020-09-24
 ### Added
-- Using `importHelpers` and `tslib` to emit smaller bundles from TypeScript ([#1](https://github.com/brisberg/typescript-toolchain/pull/1))
+- Using `importHelpers` and `tslib` to emit smaller bundles from TypeScript
 
 ### Changed
 - ESLint will no longer lint built files
