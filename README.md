@@ -1,4 +1,4 @@
-# typescript-pkg-cruft
+# cruft-typescript-pkg
 TypeScript NPM package project template definition. Powered by Cruft
 
 # TypeScript Npm Package (Template)
@@ -18,7 +18,7 @@ pip3 install cruft
 
 In a new repository:
 ```bash
-cruft create https://github.com/brisberg/typescript-pkg-cruft/
+cruft create https://github.com/brisberg/cruft-typescript-pkg/
 ```
 
 Check if there are updates upstream:

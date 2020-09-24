@@ -11,6 +11,6 @@
 
 ## Toolchain
 
-Uses [@brisberg/typescript-pkg-cruft](https://github.com/brisberg/typescript-pkg-cruft) as a template for Toolchain configuration.
+Uses [@brisberg/cruft-typescript-pkg](https://github.com/brisberg/cruft-typescript-pkg) as a template for Toolchain configuration.
 
 See that repo for a list of tools, documentation, and upgrade steps.

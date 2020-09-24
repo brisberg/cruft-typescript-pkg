@@ -1,4 +1,4 @@
-name: Tests and Lint
+{% raw %}name: Tests and Lint
 
 on: [push]
 
@@ -41,3 +41,4 @@ jobs:
       run: yarn run test
     - name: yarn run lint
       run: yarn run lint
+{% endraw %}
